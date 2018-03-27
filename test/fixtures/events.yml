@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_event: 1
+  name: MyString
+  id_place: 1
+  date: 2018-03-27
+
+two:
+  id_event: 1
+  name: MyString
+  id_place: 1
+  date: 2018-03-27
