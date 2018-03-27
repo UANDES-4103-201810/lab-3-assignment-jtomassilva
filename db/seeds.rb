@@ -16,3 +16,20 @@ event = Event.create([{id_event: 0}, {id_place: 0}, {name: 'a'}, {date: '01/10/2
 event = Event.create([{id_event: 1}, {id_place: 1}, {name: 'a'}, {date: '01/10/2018'}])
 event = Event.create([{id_event: 2}, {id_place: 2}, {name: 'a'}, {date: '01/10/2018'}])
 
+ticket = Ticket.create([{ id_ticket: 14 }, {id_event: 0}, {description: 'tipo 1'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 411 }, {id_event: 0}, {description: 'tipo 1'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 42 }, {id_event: 0}, {description: 'tipo 1'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 43 }, {id_event: 1}, {description: 'tipo 2'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 44 }, {id_event: 1}, {description: 'tipo 3'}, {price: 200}])
+ticket = Ticket.create([{ id_ticket: 45 }, {id_event: 1}, {description: 'tipo 2'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 46 }, {id_event: 2}, {description: 'tipo 3'}, {price: 200}])
+ticket = Ticket.create([{ id_ticket: 47 }, {id_event: 2}, {description: 'tipo 1'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 48 }, {id_event: 2}, {description: 'tipo 1'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 49 }, {id_event: 1}, {description: 'tipo 1'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 400 }, {id_event: 2}, {description: 'tipo 2'}, {price: 2}])
+ticket = Ticket.create([{ id_ticket: 4333 }, {id_event: 2}, {description: 'tipo 3'}, {price: 200}])
+ticket = Ticket.create([{ id_ticket: 42222 }, {id_event: 1}, {description: 'tipo 1'}, {price: 2}])
+
+
+
+
